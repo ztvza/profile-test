@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.navbar_title {
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+}
+
+.navbar_title:first-letter {
+  color: #ff775c;
+}
+
+.navbar_item {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.navbar_item:hover {
+  color: #ff775c;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar_item {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=NavBar.css.map */

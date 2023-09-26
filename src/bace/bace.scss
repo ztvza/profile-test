@@ -1,0 +1,14 @@
+body {
+  background-color: #000000;
+}
+
+h1, h2, h3, h4, p, a, li, ul {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+hr {
+  border: none; /* Убираем границу */
+  background-color: white; /* Цвет линии */
+  color: white; /* Цвет линии для IE6-7 */
+  height: 2px; /* Толщина линии */
+}

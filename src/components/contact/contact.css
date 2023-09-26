@@ -1,0 +1,29 @@
+.svg-inline--fa {
+  color: #ffffff;
+  height: 2em;
+  width: 2em;
+  border: 5px solid white;
+  padding: 15px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.fa-paper-plane {
+  margin-right: 20px;
+}
+
+.svg-inline--fa:hover {
+  scale: 1.1;
+  box-shadow: 0 0 10px #ff775c, 5px 0 10px #ff775c, -5px 0 10px #ff775c, 5px 0 10px #ff775c, inset 0 0 10px #ff775c, inset 5px 0 10px #ff775c, inset -5px 0 10px #ff775c, inset 5px 0 100px #ff775c;
+}
+
+.contact {
+  margin: 150px 0 30px;
+  padding: 20px 0;
+}
+
+.a_contact {
+  color: white;
+}
+
+/*# sourceMappingURL=contact.css.map */
