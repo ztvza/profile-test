@@ -55,6 +55,7 @@
   .yellow_сards {
     flex-direction: column;
     align-items: center;
+    margin-top: 150px;
   }
   #yellow_сards .cards_item + .cards_item {
     margin-left: 0%;

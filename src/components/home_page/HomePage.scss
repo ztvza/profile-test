@@ -12,14 +12,14 @@ $col_white: #ffff;
 
 .homePage_subtitle {
   color: white;
-  margin: 0px;
+  margin: 0;
   font-weight: lighter;
   font-size: 20px;
 }
 
 .homePage_title {
   color: white;
-  margin-top: 0px;
+  margin-top: 0;
   width: 500px;
   font-size: 50px;
 }
@@ -70,7 +70,7 @@ $col_white: #ffff;
 
 .aboutMe_title {
   font-size: 50px;
-  margin: 0px;
+  margin: 0;
 }
 
 .aboutMe_img {
@@ -139,11 +139,16 @@ $col_white: #ffff;
     width: 300px;
     font-size: 32px;
   }
+  .aboutMe {
+    margin-top: 200px;
 }
 
 @media screen and (max-width: 425px) {
   .homePage_items_title {
     font-size: 50px;
+  }
+  .homePage {
+    margin-top: 80px;
   }
   .aboutMe {
     align-items: center;
@@ -154,6 +159,12 @@ $col_white: #ffff;
   }
   .aboutMe_skills {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px 10px;
+    width: auto;
+  }
+  .aboutMe_skills_items {
+    margin: 0;
+    width: -webkit-fill-available;
   }
 }
 

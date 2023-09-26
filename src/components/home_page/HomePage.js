@@ -34,7 +34,6 @@ const HomePage = () => {
                         <li className="aboutMe_skills_items">Node.js</li>
                         <li className="aboutMe_skills_items">БЭМ</li>
                     </ul>
-                    <i className="fa fa-paper-plane" aria-hidden="true"></i>
                 </div>
             </div>
 
